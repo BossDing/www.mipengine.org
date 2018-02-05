@@ -35,8 +35,11 @@ $ npm run dev
 # 编译 markdown 文档为 html 文件
 $ npm run build
 
-# 同步最新的核心内置组件文档和官方扩展组件文档
+# 同步远程最新的核心内置组件文档和官方扩展组件文档
 $ npm run sync-components
+
+# 更新本地的核心内置组件文档和官方扩展组件文档
+$ npm run sync-components -- --extensions ../your/path/mip-extensions --core ../your/path/mip
 
 # 验证编译生成的 html 文件是否符合 MIP 规范
 $ npm run validator
